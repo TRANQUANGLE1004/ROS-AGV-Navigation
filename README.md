@@ -33,6 +33,7 @@ You must run turtle bot 3 gazebo before run your navigation launch because your 
 | ------ | ----------- |
 | tf     | store transform configuration node and example|
 | sensor infor | store sensor information for many purpose. About source code and example|
+|odometry| store about program repeat odometry message. Will update for a real robot|
 | ...    | .....|
 
 ---
@@ -41,7 +42,16 @@ You must run turtle bot 3 gazebo before run your navigation launch because your 
 
 [![turtlebot3_dimension1.png](https://s2.gifyu.com/images/turtlebot3_dimension1.png)](https://gifyu.com/image/CiKB)
 
-+ todo
+todo 
+
+---
+## Odometry 
+In my Project, i create a repeat odometry from gazebo_node (turtlebot3 simulation).
+
+Here is my result:
+
+[![rosgraph.png](https://s8.gifyu.com/images/rosgraph.png)](https://gifyu.com/image/C0p4)
+
 
 
 
